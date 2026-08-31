@@ -46,7 +46,6 @@ class TestLogins:
     def test_pwdrecovery_page_login(self, driver, create_valid_user):
         
                 driver.get(Data.PWD_RECOVERY_URL)
-                time.sleep(5)
     
                 WebDriverWait(driver,5).until(EC.visibility_of_element_located(Locators.RECOVERY_PAGE_LOGIN_LINK)).click()
         

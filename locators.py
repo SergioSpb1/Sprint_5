@@ -11,9 +11,22 @@ class Locators:
     MAIN_ACCOUNT_BUTTON = (By.XPATH, "//button[text()='Войти в аккаунт']")
     MAIN_PROFILE_BUTTON = (By.XPATH, "//p[text()='Личный Кабинет']")
     MAIN_ORDER_BUTTON = (By.XPATH, "//button[text()='Оформить заказ']")
+    MAIN_COMBINE_TEXT = (By.XPATH, "//h1[text()='Соберите бургер']")
 
     LOGIN_EMAIL_INPUT = (By.XPATH, "//input[@name='name']")
     LOGIN_PASSWORD_INPUT = (By.XPATH, "//input[@name='Пароль']")
     LOGIN_LOGIN_BUTTON = (By.XPATH,"//button[text()='Войти']")
 
     RECOVERY_PAGE_LOGIN_LINK = (By.XPATH, "//a[@href='/login']")
+
+    PROFILE_CONSTRUCTOR_BUTTON = (By.XPATH, "//p[text()='Конструктор']")
+    PROFILE_LOGO = (By.CLASS_NAME, "AppHeader_header__logo__2D0X2")
+    PROFILE_LOGOUT_LINK = (By.XPATH, "//button[text()='Выход']")
+
+    CONSTRUCTOR_SAUCES_BUTTON = (By.XPATH, "//span[text()='Соусы']/parent::div")
+    CONSTRUCTOR_BUNS_BUTTON = (By.XPATH, "//span[text()='Булки']/parent::div")
+    CONSTRUCTOR_INGR_BUTTON = (By.XPATH, "//span[text()='Начинки']/parent::div")
+    # CONSTRUCTOR_SAUCES_HEADER = (By.XPATH, "//h2[text()='Соусы']")
+    # CONSTRUCTOR_BUNS_HEADER = (By.XPATH, "//h2[text()='Булки']")
+    # CONSTRUCTOR_INGR_HEADER = (By.XPATH, "//h2[text()='Начинки']")
+        
