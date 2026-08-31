@@ -3,8 +3,6 @@ from locators import Locators
 from selenium import webdriver
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
-import time
-
 
 class TestLogins:
     def test_account_button_login(self, driver, create_valid_user):
